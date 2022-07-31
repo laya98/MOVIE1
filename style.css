@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  text-transform: capitalize;
+}
+html {
+  background-color: #222;
+}
+.contaner {
+  width: 100%;
+}
+header {
+  width: 80%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login span {
+  margin: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+.login i {
+  margin-left: 10px;
+}
+.login button {
+  all: unset;
+  margin: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+.serachbox {
+  background-color: #222;
+  margin: 0;
+}
+
+input {
+  border: 0;
+  background-color: #222;
+  color: #fff;
+  outline: none;
+  font-size: 20px;
+}
+.i {
+  color: #fff;
+  direction: rtl;
+}
+/* nav bar  */
+
+nav {
+  width: 20%;
+  height: 90vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+  transition: all 2s;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.logo img {
+  width: 50px;
+  border-radius: 50%;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.logo h1 {
+  color: #fff;
+  margin-top: 10%;
+  margin-left: 40%;
+}
+
+.firstsec,
+.secondsec,
+.thiredse {
+  color: #fff;
+  width: 90%;
+  text-align: end;
+  border-radius: 2px;
+  font-size: 20px;
+  padding: 10px;
+}
+.firstsec {
+  position: absolute;
+  top: 15%;
+}
+.firstsec i,
+.secondsec i,
+.thiredse i {
+  margin: 10px;
+}
+.secondsec {
+  position: absolute;
+  top: 50%;
+  text-align: end;
+}
+
+.thiredse {
+  position: absolute;
+  top: 80%;
+}
+img {
+  border-radius: 5px;
+}
+
+section {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+section iframe {
+  border-radius: 20px;
+  width: 78%;
+}
+
+main {
+  width: 80%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+.box{
+  font-size: 16px;
+}
+.box p {
+  color: #fff;
+  margin-bottom: 5px;
+}
+.play {
+  all: unset;
+  width: 120px;
+  color: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px gray solid;
+  text-align: center;
+  border-radius: 5px;
+  background-color: gray;
+  transition: all 1s;
+}
+.play:hover {
+  width: 150px;
+}
+a {
+  text-decoration: none;
+}
+span{
+  color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
